@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -webkit-tap-highlight-color:transparent;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body{
+    background-color: white;
+    font-size: initial;
+    font-family: -apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;
+}
+ul{list-style-type: none}
+a{
+    text-decoration: none;
+}
+/* 头部样式 */
+.articles_header {
+    padding: 24px 20px 20px;
+}
+.rich_media_title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.account_avatar {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.account_info .flex_bd {
+    -webkit-box-flex: 1;
+    padding-left: 8px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.account_nickname_inner {
+    font-weight: 400;
+    vertical-align: top;
+    font-size: 15px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    max-width: 180px;
+}
+.account_info {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+/*列表样式*/
+.mescroll{
+    position: fixed;
+    top: 119px;
+    bottom: 0;
+    height: auto;
+}
+.news-list li{
+    position: relative;
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+}
+.listImg img{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    width: 93px;
+    height: 74px;
+    background-size: cover;
+}
+.listContent{
+    width: 70%;
+}
+.listImg{
+    width: 30%;
+}
+.title{
+    color: #000;
+    line-height: 24px;
+    font-size: 18px;
+    overflow: hidden;
+    font-weight:400;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.cover {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    width: 93px;
+    height: 74px;
+}
+.account_nickname_inner{
+    color:#576b95;
+}
+.desc{
+    font-size: 14px;
+    color: #999;
+    overflow: hidden;
+    margin-top:-10px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-height: 1.3;
+}
+.cont {
+    justify-content: space-between;
+    overflow: visible;
+    position: relative;
+    min-height: 24px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.newsTime{
+    color: #B9B9B9;
+    font-size:12px;
+}
